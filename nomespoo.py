@@ -3,10 +3,11 @@ import time
 import random
 
 
+nome = input('Digite seu nome: ')
 
 class Name:
-    def __init__(self):
-        self.nome = input('Digite seu nome: ')
+    def __init__(self, nome):
+        self.nome = nome
         self.t = turtle.Turtle()
         self.shapes = ['arrow', 'turtle', 'circle',
                        'square', 'triangle', 'classic']
