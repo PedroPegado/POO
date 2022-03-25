@@ -3,8 +3,6 @@ import time
 import random
 
 
-nome = input('Digite seu nome: ')
-
 class Name:
     def __init__(self, nome):
         self.nome = nome
@@ -138,5 +136,6 @@ class Name:
         self.start()
 
 
-challenge = Name()
-challenge.start()
+nome = input('Digite seu nome: ')
+pessoa = Name(nome)
+pessoa.start()
