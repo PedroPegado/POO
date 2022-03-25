@@ -5,16 +5,14 @@ import random
 
 
 class Name:
-
     def __init__(self):
-        self.name = input('Digite seu nome: ')
+        self.nome = input('Digite seu nome: ')
         self.t = turtle.Turtle()
         self.shapes = ['arrow', 'turtle', 'circle',
                        'square', 'triangle', 'classic']
         self.colors = ['red', 'blue', 'green',
                        'yellow', 'black', 'brown', 'pink']
         self.speed = [5, 6, 7, 8, 9, 10]
-
 
 
     def start(self):
